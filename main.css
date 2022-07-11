@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('images/bg.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar {
+    background:#6ab446;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.servercard {
+  background: none;
+  width: 30rem;
+}
+.servercard::after {
+  content: '';
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  border: 10px solid black;
+  background-color: rgba(245, 245, 245, 0.1);
+  width: 100%;
+  bottom: 0;
+  z-index: -1;
+}
+
+.servercardtitle  {
+  color: #ffcb00;
+  text-shadow: .125rem .125rem 0 #000, .125rem -.125rem 0 #000, .125rem -.125rem 0 #000, -.125rem .125rem 0 #000;
+  font-size: 1.25rem;
+}
+
+.serverdetails {
+  color: #ffcb00;
+  text-shadow: .1rem .1rem 0 #000, .1rem -.1rem 0 #000, .1rem -.1rem 0 #000, -.1rem .1rem 0 #000;
+  list-style-position: inside;
+}
+
+.servertop {
+  height: 10rem;
+  object-fit: contain;
+}
+
+ul {margin-left: 0; padding-left: 0;}
