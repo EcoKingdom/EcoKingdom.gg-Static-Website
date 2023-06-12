@@ -25,10 +25,16 @@ body {
     justify-content: flex-end;
 }
 
+.storecard {
+    background: none;
+    width: 30rem;
+}
+
 .servercard {
   background: none;
   width: 30rem;
 }
+
 .servercard::after {
   content: '';
   position: absolute;
