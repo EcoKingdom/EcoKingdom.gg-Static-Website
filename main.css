@@ -35,6 +35,14 @@ body {
   width: 30rem;
 }
 
+.regioncard {
+    background: none;
+    color: #ffcb00;
+    text-shadow: .1rem .1rem 0 #000, .1rem -.1rem 0 #000, .1rem -.1rem 0 #000, -.1rem .1rem 0 #000;
+    list-style-position: inside;
+    font-size: 3rem;
+}
+
 .servercard::after {
   content: '';
   position: absolute;
@@ -59,9 +67,25 @@ body {
   list-style-position: inside;
 }
 
+.modal-title {
+    color: #ffcb00;
+    text-shadow: .1rem .1rem 0 #000, .1rem -.1rem 0 #000, .1rem -.1rem 0 #000, -.1rem .1rem 0 #000;
+}
+
 .servertop {
-  height: 10rem;
-  object-fit: contain;
+    height: 10rem;
+    object-fit: contain;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.modal-content {
+    background-color: #161616;
+    background-image: url('images/bg.png');
+    background-size: cover;
+    background-position: center;
 }
 
 ul {margin-left: 0; padding-left: 0;}
